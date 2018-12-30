@@ -1,5 +1,4 @@
 
-
 															/* Gestion du header - menu */
 
 header {
@@ -49,14 +48,13 @@ header {
 
 
                                                             /* Gestion du centre de la page*/
+ 
  body {
 	background-color: rgba(0,0,0,0.8);
 	margin: 0;
-
-
-
-
 }
+
+
 
 															/* Gestion du header - logo  */
 
@@ -73,13 +71,13 @@ header {
 
 
 															/* Gestion du footer  */
+
 .index  {
     display: flex;
     color: black;
 	background-color: white;
 	border-top: 6px solid black;
-	height: 45px;
-	
+	height: 45px;	
 }
 
 .index ul{
@@ -88,7 +86,6 @@ header {
     justify-content: space-between;
     padding: 0px 15px;
 	width: 100%;
-	
 }
 
 .index li{
@@ -97,8 +94,6 @@ header {
     margin-left: 3%;
 }
 	
-
-
 .index_2  {
     display: flex;
     color: black;
@@ -123,16 +118,48 @@ header {
 
 
 
-
                                                             /* Gestion du centre de la page acceuil*/
 
 .centre{
 	height: 88vh;
 	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(index_image_centrale.jpg);
-
+	color: white;
+    text-align: center;
 }
 
-                                                            /* Gestion du centre de la page catalogue*/
+.centre h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+	margin: 0;
+	padding-top: 7%;
+}
+
+.centre h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+	margin: 0;
+	padding-top: 0%;
+}
+
+.centre h3 {
+    font-size: 33px;
+    margin-top: 1%;
+	font-style:  italic;
+}
+
+.recherche {
+    font-size: 18px;
+	margin-top: 2%;
+	padding-right: 1%;
+	padding-left: 4.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	border-radius: 1em;
+}
+ 
+ 
+ 
+															/* Gestion du centre de la page catalogue*/
 
 .centre_catalogue{
 color: maroon;
@@ -169,7 +196,6 @@ width: 100%;
 }
 
 .centre_catalogue p {
-
 margin: 5px;
 }
 
@@ -177,18 +203,13 @@ margin: 5px;
 
                                                             /* Gestion du centre de la page Article*/
 
-
-
-
 .centre_Article ul {
 	background-color: maroon;
 	padding-left: 0;
-	
 	margin-bottom: auto;
     margin-left: 2%;
     margin-right: 11%;
 	margin-top: 0%;
-
 }
 
 .centre_Article li {
@@ -196,7 +217,6 @@ margin: 5px;
     display: inline-block;
 	margin-bottom: 5px;
 	background-color: black;
-
 }
 
 .centre_Article img {
@@ -216,11 +236,8 @@ max-width: auto;
 	max-height: 80vh;
 }
 
-
 .haut_droite {
 display: flex;
 justify-content: space-between;
 margin-top: 1%;
 }
-
-
