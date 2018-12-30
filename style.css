@@ -1,6 +1,5 @@
 
 															/* Gestion du header - menu */
-
 header {
 	
 	display: flex;
@@ -277,12 +276,8 @@ header {
 	margin-right: 49%;
 	background-color: white;
 	font-family: "Raleway", sans-serif;
-
 }
 
-
-
-															/* Gestion du bouton commander */
 .Description a {
 	color: black;
 	text-decoration: none;
@@ -294,5 +289,62 @@ header {
 	border: 4px solid black;
 	border-radius: 15px;
 	text-align: center;
+}
 
+
+
+															/* Gestion du panier */
+.Panier {
+	font-family: "Raleway", sans-serif;
+
+}
+.Panier h1{
+    font-size: 23px;
+	margin-bottom: 0;
+	margin-left: 0%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-right: 65%;
+	text-align: center;
+}
+
+.Panier h2{
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50%;
+}
+
+.Panier h2 li {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 25vh;
+}
+
+.Panier h3{
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50%;
+	padding-top: 0px;
+}
+
+.Panier h3 li {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 26vh;
+}
+
+.Panier h4{
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50%;
+	padding-top: 0px;
+}
+
+.Panier h4 li {
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 26vh;
 }
