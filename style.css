@@ -127,15 +127,17 @@ header {
 
 .centre{
 	height: 88vh;
-	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image_index.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(index_image_centrale.jpg);
 
 }
+
+                                                            /* Gestion du centre de la page catalogue*/
 
 .centre_catalogue{
 	height: 97vh;
 
 }
-                                                            /* Gestion du centre de la page catalogue*/
+
 
 .centre_catalogue ul {
     display: flex;
@@ -171,3 +173,37 @@ width: 585px;
 
 margin: 8px;
 }
+
+
+
+                                                            /* Gestion du centre de la page Article*/
+
+
+.centre_Article{
+	height: 90vh;
+
+}
+
+
+.centre_Article ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	margin-left: 11%;
+
+
+}
+
+.centre_Article li {
+    border:  5px solid white;
+    display: inline-block;
+
+}
+
+
+.centre_Article img {
+height: 603px;
+width: 603px;
+}
+
