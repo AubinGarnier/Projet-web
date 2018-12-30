@@ -96,7 +96,7 @@ header {
 }
 	
 .index_2  {
-    display: flex;
+
     color: black;
 	background-color: white;
 	border-top: 6px solid black;
@@ -108,13 +108,14 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0px 15px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .index_2 li{
     display: inline-block;
-    margin-right: 256px;
-    margin-left: 256px;
+    margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 0px;
 }
 
 
@@ -142,9 +143,16 @@ header {
 	padding-top: 0%;
 }
 
-.centre h3 {
+.centre h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+	margin: 0;
+	padding-top: 3%;
+}
+
+.centre h4 {
     font-size: 33px;
-    margin-top: 1%;
+    margin-top: 3%;
 	font-style:  italic;
 }
 
@@ -205,7 +213,6 @@ header {
                                                             /* Gestion du centre de la page Article*/
 
 .centre_Article ul {
-	background-color: maroon;
 	padding-left: 0;
 	margin-bottom: auto;
     margin-left: 2%;
@@ -266,25 +273,26 @@ header {
 	margin-left: 9%;
 	padding-left: 4%;
 	padding-top: 0.5%;
-	padding-bottom: 0.5;
+	padding-bottom: 0.3%;
 	margin-right: 49%;
 	background-color: white;
 	font-family: "Raleway", sans-serif;
+
 }
 
-.commander li{
-	display: inline-block;
-}
+
+
 															/* Gestion du bouton commander */
-.commander li a {
+.Description a {
 	color: black;
 	text-decoration: none;
 	padding: 5px 30px;
+	margin-left: 15%;
+	margin-bottom: 10%;
 	font-family: "Raleway", sans-serif;
-	font-size: 15px;
-}
-
-.commander li.active a {
-	border: 2px solid black;
+	font-size: 40px;
+	border: 4px solid black;
 	border-radius: 15px;
+	text-align: center;
+
 }
