@@ -181,15 +181,13 @@ margin: 5px;
 
 
 .centre_Article ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 20px;
-	margin-left: 2%;
-	margin-right: 29.9%;
 	background-color: maroon;
 	padding-left: 0;
-
+	
+	margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: 11%;
+	margin-top: 0%;
 
 }
 
@@ -198,28 +196,31 @@ margin: 5px;
     display: inline-block;
 	margin-bottom: 5px;
 	background-color: black;
+
 }
 
 .centre_Article img {
-height: 550px;
-width: 550px;
+max-height: 17vw;
+max-width: auto;
+}
+
+.centre_Article_2{
+	max-height: 10vh;
+	max-width: auto;
+	margin-right: 3%
 }
 
 
-.centre_Article_2 li {
-    font-size: 40px;
-    border:  1px solid white;
-    display: inline-block;
-
-}
 .centre_Article_2 img {
-	max-height: 30%;
-	max-width: 30%;
-    border:  1px solid white;
+    border:  3px solid white;
+	max-height: 80vh;
 }
+
+
 .haut_droite {
 display: flex;
 justify-content: space-between;
+margin-top: 1%;
 }
 
 
