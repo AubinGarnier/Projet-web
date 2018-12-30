@@ -1,0 +1,173 @@
+
+
+															/* Gestion du header - menu */
+
+header {
+	
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border-bottom: 6px solid black;
+	height: 65px;
+}
+
+.main-nav {
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+.main-nav li{
+	display: inline-block;
+}
+ 
+.main-nav li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a {
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+.invi a{
+	border: 2px solid rgba(0,0,0,0);
+	border-radius: 15px;
+}
+
+.main-nav li a:hover {
+
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+
+
+
+                                                            /* Gestion du centre de la page*/
+ body {
+	background-color: rgba(0,0,0,0.8);
+	margin: 0;
+
+
+
+
+}
+
+															/* Gestion du header - logo  */
+
+.logo {
+	margin-left: 25px;
+}
+
+.logo img {
+	width: 200px;
+	height: auto;
+	float: left;
+}
+
+
+
+															/* Gestion du footer  */
+.index  {
+    display: flex;
+    color: black;
+	background-color: white;
+	border-top: 6px solid black;
+	height: 45px;
+	
+}
+
+.index ul{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+	width: 1920px;
+	
+}
+
+.index li{
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+	
+
+
+.index_2  {
+    display: flex;
+    color: black;
+	background-color: white;
+	border-top: 6px solid black;
+	height: 45px;
+}
+
+.index_2 ul{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin-top: 25px;
+}
+
+.index_2 li{
+    display: inline-block;
+    margin-right: 256px;
+    margin-left: 256px;
+}
+
+
+
+
+                                                            /* Gestion du centre de la page acceuil*/
+
+.centre{
+	height: 88vh;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image_index.jpg);
+
+}
+
+.centre_catalogue{
+	height: 97vh;
+
+}
+                                                            /* Gestion du centre de la page catalogue*/
+
+.centre_catalogue ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	margin-left: 11%;
+
+
+}
+
+.centre_catalogue li {
+    border:  5px solid white;
+    display: inline-block;
+    text-align: center;
+    width: 26%;
+    padding: 10px;
+    margin-bottom: 40px;
+	margin-left: 30px
+}
+
+.centre_catalogue li a {
+    text-decoration: none;
+}
+
+.centre_catalogue img {
+height: 335px;
+width: 585px;
+}
+
+.centre_catalogue p {
+
+margin: 8px;
+}
